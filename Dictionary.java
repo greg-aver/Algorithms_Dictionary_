@@ -86,4 +86,16 @@ class NativeDictionary<T>
         }
         return null;
     }
+    
+    public int getSize() {
+        return size;
+    }
+
+    public String[] getSlots() {
+        return slots;
+    }
+
+    public T[] getValues() {
+        return values;
+    }
 }
